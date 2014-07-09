@@ -1,0 +1,144 @@
+@charset "utf-8";
+.frame .middle .right .r_bottom .xg_small_bg {
+	/*	background-image: url(images/xg_small_bg.png);
+	height: 448px;*/
+	box-shadow:2px 2px 2px #999;
+	border-radius: 6px 6px 6px 6px;
+	padding-bottom:50px;
+	height:auto;
+	width: 627px;
+	margin-left: 30px;
+	border: 1px solid #999;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply .people {
+	background-image: url(../images/person_icon.png);
+	height: 21px;
+	width: 21px;
+	display: block;
+	margin-top: -2px;
+	padding-right: 5px;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply label {
+	display: block;
+	float: left;
+}
+.frame .middle .right .r_bottom .xg_small_bg .said_img {
+	background-image: url(../images/said.png);
+	float: right;
+	height: 26px;
+	width: 120px;
+	cursor:pointer;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply {
+	margin-left: 20px;
+	padding-right: 0px;
+	padding-top: 15px;
+	border-bottom:1px #CCC solid;
+	padding-bottom: 25px;
+	margin-right:10px;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply #xuehao {
+	color: #0099cc;
+	font-size: 14px;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply .content {
+	color: #333333;
+	font-size: 14px;
+}
+/*.xg_small_bg .reply .bt_line {
+	background-image: url(../images/replyLine.png);
+	height: 1px;
+	width: 578px;
+	margin-bottom: 0px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+.frame .middle .right .r_bottom .xg_small_bg .reply .rightDown {
+	width: auto;
+	float: right;
+	padding-right: 0px;
+	margin-top: -2px;
+}
+.reply .rightDown a {
+	font-size: 12px;
+	color: #0099cc;
+}
+.reply  .rightDown .time {
+	padding-right: 15px;
+	font-size: 12px;
+	color: #999999;
+}
+.frame .middle .right .r_bottom .xg_small_bg .reply .said {
+	padding-right: 10px;
+}
+
+.frame .middle .left .leftGrade ul li label {
+	margin-left: 95px;
+}
+
+.xg_small_bg .said_left {
+	font-size: 14px;
+	color: #999999;
+	float: left;
+	margin-left: 10px;
+	display: none;
+}
+.xg_small_bg .said_left a {
+	font-size: 14px;
+	color: #0099cc;
+}
+.xg_small_bg .myreply form .re {
+	width:580px;
+	height:70px;
+	padding: 5px;
+	resize: none;
+	background: none repeat scroll 0 0 #FEFEFE;
+	border: 2px solid #99ccff;
+	overflow: auto;
+	text-align: left;
+	border-radius: 6px 6px 6px 6px;
+	outline: none;
+	color: #333;
+	
+}
+.focus{
+	box-shadow:0 0 20px rgba(255, 255, 246, 0.6);
+	}
+
+.frame .middle .left .leftGrade {
+	margin-left: 10px;
+}
+.myreply .fa_bt {
+	background-image: url(../images/fabu.png);
+	height: 27px;
+	width: 76px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor:pointer;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.r_bottom .xg_small_bg .btm {
+	width: 610px;
+	margin-top: 10px;
+	height: 26px;
+}
+.xg_small_bg .myreply {
+	width: 590px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	position: relative;
+	padding-right:5px;
+	display:none;
+}
+.myreply form .hui_who {
+	z-index: 10;
+	position: absolute;
+	padding-top: 5px;
+	padding-left: 5px;
+}

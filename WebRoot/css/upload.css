@@ -1,0 +1,141 @@
+@charset "utf-8";
+.lastli {
+	display: block;
+}
+
+
+
+.middle {
+	background-image: url(../images/upload_bg.png);
+	height: 449px;
+	width: 855px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 15px;*/
+	margin-bottom: 15px;
+	padding-top:5px;
+	
+}
+.middle .upload {
+	background-image: url(../images/upfile.png);
+	height: 50px;
+	width: 131px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+.middle .tab .aline input {
+
+	height: 23px;
+	width: 180px;
+
+}
+.middle .tab .aline input {
+	height: 23px;
+	width: 180px;
+	line-height: 23px;
+}
+
+.middle .tab .aline .fileTea {
+	display:inline;
+	margin-left: 28px;
+}
+.middle .tab .aline .courseName {
+	display: inline;
+}
+.middle .tab .aline .grade {
+	display: inline;
+	margin-left: 29px;
+}
+.middle .tab .inbox {
+	margin-top: 10px;
+	position: relative;
+}
+.middle .tab .aline .academy {
+	display: inline;
+	margin-left: 29px;
+}
+.middle .tab .aline .major {
+	display: inline;
+	margin-left: 29px;
+}
+.middle .tab .intr {
+	display: inline;
+	float: left;
+	m
+; 		margin-right: 5px;
+}
+.middle .tab .text {
+	border-radius: 6px 6px 6px 6px;
+	outline:none;
+	display: block;
+	font-size:14px;
+	resize: none;
+	background: none repeat scroll 0 0 #FEFEFE;
+	border: 1px solid #DDDDDD;
+	height: 45px;
+	overflow: auto;
+	padding: 5px;
+	/*    resize: vertical;*/
+    width: 350px;
+	color: #CCC;	
+}
+.middle .tab .aline .localUp {
+	display: inline;
+}
+.middle .tab .aline .fileName {
+	display:inline;
+	/*//margin-left: 5px;*/
+}
+.middle .tab .aline {
+	margin-top: 7px;
+}
+.middle .tab .aline select {
+	height: 23px;
+	width: 180px;
+}
+.middle .tab {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+	margin-left: 60px;
+}
+.middle .tab .aline .sure {
+	background-image: url(../images/yes.png);
+	float: left;
+	height: 23px;
+	width: 80px;
+	display: inline-block;
+	margin-left: 65px;
+	cursor:pointer;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.middle .tab .aline .cancel {
+	background-image: url(../images/no.png);
+	height: 23px;
+	width: 80px;
+	margin-left: 10px;
+	float: left;
+	cursor:pointer;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.middle .tab form .myline {
+	margin-top: 15px;
+}
+.middle .tab form .aline .font_box {
+	text-align: right;
+	width: 100px;
+	margin-right: 5px;
+}
+.font_long{
+	float: right;
+	position: absolute;
+	left: 376px;
+	top: 62px;
+	}

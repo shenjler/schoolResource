@@ -1,0 +1,121 @@
+@charset "utf-8";
+.yellow{
+	background-image:url(../images/geYello.png);	
+	
+}
+	
+.gray{
+	background-image:url(../images/geGray.png);	
+}
+.frame {
+	margin-top: 20px;
+	height: 726px;
+	width: 855px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image:url(../images/delete_bg.png);
+	padding-top:20px;
+}
+.frame .tab {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666666;
+	width: 800px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.frame .his_ban {
+	background-image: url(../images/his_ban.png);
+	height: 50px;
+	width: 132px;
+	margin-left: -7px;
+}
+.special{
+	background: url(../images/home.png);
+}
+.frame .tab .firstline td {
+	background-image: url(../images/yelloLine.png);
+	background-repeat: repeat;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	font-size: 14px;
+	color: #666666;
+}
+.frame  .tab tr td {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.frame  #num a {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	/*background-image: url(images/geGray.png);*/
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+}
+.frame  #num span {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	/*background-image: url(images/geGray.png);*/
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+	cursor:pointer;
+}
+.frame form #num a:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame  form #num span:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame  #num {
+	float: right;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+.frame  form #num .show {
+/*	background-image: url(images/geYello.png);*/
+}
+.frame  form .sure {
+	background-image: url(../images/sureDelete.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 35px;
+	width: 96px;
+	margin-top: 31px;
+	margin-left: 25px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	cursor: pointer;
+}

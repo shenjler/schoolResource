@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+	/*头部CSS*/
+	
+body,img,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,*{
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+img{
+ 	 border:0px;
+ 	 outline:none;
+}
+table{border-collapse:collapse;border-spacing:0}
+
+body{
+	font-family:"微软雅黑";
+	margin-top: 0;padding:0;
+	}
+a{
+	text-decoration:none;
+	color:#FFF;
+	
+	}
+.bgcolor{
+	width:100%;
+	background: #336699;
+
+}
+.top{
+	height:135px;
+}
+.bottom{
+	height:35px;
+	
+	
+}
+.ban{
+	width:848px;
+	height:78px;
+	margin:0 auto;
+
+	}
+.gdpu{
+		   background:url(../images/GDPU.png);
+		   width:237px;
+		   height:48px;
+		   float:left;
+		   margin-top:30px;
+	
+		}
+.seach{
+		float:right;
+		margin-top:30px;
+		font-size:12px;
+		color:#fff;
+		}
+.exit{
+	color:#FFF;
+	}
+	
+.word{
+
+text-align:right;
+	
+	}
+.seach_box{
+	width:295px;
+	height:29px;
+	float:none;
+	margin-top: 3px;
+	background-image: url(../images/soubox.png);
+	background-repeat: no-repeat;
+	}
+.box{
+	margin-left:3px;
+	margin-top:3px;
+	width:207px;
+	height:23px;
+	float:left;
+	line-height:23px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	outline:none;
+	
+	}
+	
+.bt{
+	width:82px;
+	height:29px;
+	border:0px;
+	display:block;
+	float:left;
+	margin-left:0px;
+	cursor:pointer;
+	background-image:url(../images/sou.png);
+	background-repeat: no-repeat;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;	
+	}	
+	
+.myli{
+	float: left;
+	/*border:#000 solid 1px;*/
+			display:block;
+	height:47px;
+	width:93px;
+	line-height:49px;
+	text-align:center;
+	background: url(../images/ban.png);
+	text-decoration:none;
+	list-style-type: none;
+		
+			}
+.myli a{
+	height:47px;
+	width:93px;
+	display:block;
+	font-family:"微软雅黑" ;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	font-size:14px;
+	outline:none;
+	}
+/*.firstli{
+		margin-left:0px;
+		background: url(../images/home.png);
+			}
+.firstli a{
+	color: #000;
+	}*/
+.myli a:hover{
+	background:url(../images/home.png);
+	color:#000;
+
+	}
+.avr{
+	height: 47px;
+	width:848px;
+	margin:0 auto;
+	margin-bottom:0px;
+	margin-top:10px;
+	}
+
+.special a {
+	color: #000;
+}
+.lastli{
+	/*判断是否是老师*/
+		display:none;
+	}
+.special{
+		background-image: url(../images/home.png);
+}

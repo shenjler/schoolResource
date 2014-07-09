@@ -1,0 +1,81 @@
+* {
+	margin:0;
+	padding:0;
+}
+h1 {
+text-align:center;
+margin:20px;
+}
+.moving {
+/*opacity:0.6;
+filter:alpha(opacity=60);*/
+}
+div.pop_window {
+	width:400px;
+	height:300px;
+	border:20px solid #999999;
+	background:#fff;
+	position:absolute;
+	left:100px;
+	top:100px;
+	
+}
+div.pop_window h6.title_bar {
+	height:26px;
+	line-height:36px;
+	background:#fff;
+	color:#0099cc;
+	font-weight:bold;
+	text-indent:10px;
+	font-size:14px;
+	cursor:move;
+	margin-top: 10;
+}
+div.pop_window div.window_content {
+display:block;
+width:auto;
+height:auto;
+padding:4px;
+overflow:auto;
+}
+div.pop_window a.close_button,div.pop_window a.maximize_button {
+	position:absolute;
+	right:5px;
+	top:5px;
+	width:19px;
+	height:19px;
+	display:block;
+	text-decoration:none;
+	color:black;
+	border:1px solid silver;
+	text-align:center;
+	line-height:20px;
+	font-size:12px;
+	background-image: url(../images/chacha.png);
+}
+div.pop_window a.maximize_button {
+right:30px;
+}
+div.pop_window a.resize_knob {
+position:absolute;
+width:10px;
+height:10px;
+display:block;
+background:silver;
+right:0;
+bottom:0;
+cursor:nw-resize;
+}
+#pop_window_mask {
+background:#CCC;
+opacity:0.77;
+filter:alpha(opacity=60);
+z-index:100;
+width:100px;
+height:100px;
+position:absolute;
+left:0;
+display:none;
+top:0;
+}
+

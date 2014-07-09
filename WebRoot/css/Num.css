@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.frame  #num a {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	/*background-image: url(images/geGray.png);*/
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+}
+.frame  #num span {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	/*<!--background-image: url(images/geGray.png);-->*/
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+	cursor:pointer;
+}
+.frame form #num a:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame  form #num span:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame  #num {
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.frame  form .sure {
+	background-image: url(../images/sureDelete.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 35px;
+	width: 96px;
+	margin-top: 31px;
+	margin-left: 25px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	cursor: pointer;
+}
+.yellow{
+	background-image:url(../images/geYello.png);	
+	
+}
+	
+.gray{
+	background-image:url(../images/geGray.png);	
+}

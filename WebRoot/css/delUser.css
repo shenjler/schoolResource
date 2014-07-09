@@ -1,0 +1,123 @@
+@charset "utf-8";
+.yellow{
+	background-image:url(../images/geYello.png);	
+	
+}
+	
+.gray{
+	background-image:url(../images/geGray.png);	
+}
+.frame {
+	margin-top: 20px;
+	height: auto;
+	width: 855px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+.frame .stu .tb {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-color:#ccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.frame .stu .stu_icon {
+	background-image: url(../images/stu.png);	
+}
+.frame .stu   {
+	background-image: url(../images/stu_bg.png);
+	height: 411px;
+	width: 855px;
+	padding-top: 20px;
+}
+.frame .stu .teach_icon {
+	background-image: url(../images/tec.png);
+}
+.frame .stu .tab{
+	height: 50px;
+	width: 131px;
+	margin-left:-5px;
+	}
+.frame .stu .admin_icon {
+	background-image: url(../images/adm.png);
+}
+.frame .stu .tb tr td {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.frame .stu .tb .firstTr td {
+	background-image: url(../images/yelloLine.png);
+	border:solid 1px #cccccc;
+	background-repeat: repeat;
+}
+.frame .stu #num a {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+}
+.frame .stu #num span {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #666666;
+	background-image: url(../images/geGray.png);
+	text-align: center;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 5px;
+	cursor:pointer;
+}
+.frame .stu form .sure {
+	background-image: url(../images/sureDelete.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 35px;
+	width: 96px;
+	margin-top: 31px;
+	margin-left: 25px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	cursor: pointer;
+}
+.frame .stu form #num a:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame .stu form #num span:hover {
+	background-image: url(../images/geYello.png);
+}
+.frame .stu #num {
+	float: right;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+.frame .stu form #num .show {
+	background-image: url(../images/geYello.png);
+}
+.special{
+	background: url(../images/home.png);
+}

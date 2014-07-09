@@ -1,0 +1,40 @@
+@charset "utf-8";
+td{
+	border:#CECECE solid 1px;
+	border-bottom:none;
+	border-top:none;
+	color:#666666;
+	text-align:center;
+	font-size:12px;
+	padding-top: 3px;
+	padding-right: 35px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	}
+.firsttr td,.last td{
+	margin-left:25px;
+	border-bottom:#CECECE solid 1px;
+	border-top:#CECECE solid 1px;
+	}
+
+.last td{
+	border-top:none;
+	}
+.frame .middle .right .table .near {
+	margin-right: 10px;
+}
+.firsttr td{
+	font-size:14px;
+	color:#666666;
+	background-image: url(../images/yelloLine.png);
+	background-repeat: repeat;
+	padding:5px 38px;
+	}
+.table{
+	margin-left:30px;
+	margin-bottom:10px;
+	padding:0px;
+	box-shadow:0 0 20px rgba(230, 214, 246, 0.6);
+
+	}
+	
